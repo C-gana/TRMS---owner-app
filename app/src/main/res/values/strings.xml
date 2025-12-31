@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">TRMS Owner App</string>
+    <string name="app_name">TRMS Owner</string>
+    <string name="owner_login">Owner Login</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="app_logo">App Logo</string>
 </resources>

@@ -32,9 +32,27 @@ android {
 }
 
 dependencies {
-
+    // Core Android
     implementation(libs.appcompat)
     implementation(libs.material)
+    implementation(libs.constraintlayout)
+
+    // Lifecycle & ViewModel
+    implementation(libs.lifecycle.viewmodel)
+    implementation(libs.lifecycle.livedata)
+
+    // Networking
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.gson)
+    implementation(libs.okhttp.logging)
+
+    // Gson
+    implementation(libs.gson)
+
+    // Secure Storage
+    implementation(libs.security.crypto)
+
+    // Testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
